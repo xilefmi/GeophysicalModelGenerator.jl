@@ -176,10 +176,10 @@ julia> Write_Paraview(GPS_Sanchez_grid, "GPSAlps_Sanchez_2017_grid")
 ```
 
 Opening and plotting the vertical field gives:
-![Tutorial_GPS_test_3](../assets/img/Tutorial_GPS_test_3.png)
+![Tutorial_GPS_test_3](../assets/img/Tutorial_GPS_test_3.PNG)
 
 In order to plot the velocities as arrows, you need to select the `Glyph` tool (red circle). Also specify `Velocity_mm_year ()` as both Orientation and Scale Array, and add `50` as scale factor. Once you push `Apply` it should look like:
-![Tutorial_GPS_test_4](../assets/img/Tutorial_GPS_test_4.png)
+![Tutorial_GPS_test_4](../assets/img/Tutorial_GPS_test_4.PNG)
 
 The arrows can now be colored by the individual velocity components or its magnitude.
 
